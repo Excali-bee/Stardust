@@ -1,0 +1,39 @@
+{
+  "name": "stardust",
+  "displayName": "StarDust",
+  "description": "Snippets for Terraria mod developers who prefer to use Visual Studio Code or, for some reason, cannot use Visual Studio Community.",
+  "version": "1.0.0",
+  "icon": "images/icon.png",
+  "repository": "https://github.com/Excali-bee/Stardust",
+  "publisher": "Excalibee",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "activationEvents": [],
+  "main": "./extension.ts",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "csharp",
+        "path": "./snippets/csharp.json"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.91.0",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "20.x",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.0"
+  }
+}
