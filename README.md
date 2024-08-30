@@ -24,9 +24,9 @@ There are no known issues at this time. Please report any issues you encounter v
 1.0.0
 Initial release of Stardust, featuring the following snippets:
 
-sd:item: Create a new item.
-sd:proj: Create a new projectile.
-sd:dust: Create custom dust effects.
-sd:tile: Set up a new tile.
-sd:rarity: Implement a custom rarity.
-sd:buff: Create a new buff or debuff.
+- [x] sd:item: Create a new item.
+- [x] sd:proj: Create a new projectile.
+- [x] sd:dust: Create custom dust effects.
+- [x] sd:tile: Set up a new tile.
+- [x] sd:rarity: Implement a custom rarity.
+- [x] sd:buff: Create a new buff or debuff.
