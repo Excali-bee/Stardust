@@ -13,7 +13,7 @@
     "Snippets"
   ],
   "activationEvents": [],
-  "main": "./extension.ts",
+  "main": "./extension.js",
   "contributes": {
     "snippets": [
       {
