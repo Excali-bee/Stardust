@@ -5,7 +5,7 @@
             "using Terraria;",
             "using Terraria.ModLoader;",
             "",
-            "public class $1 : ModItem",
+            "public class $TM_FILENAME_BASE : ModItem",
             "{",
             "    public override void SetDefaults()",
             "    {",
@@ -25,7 +25,7 @@
             "",
             "namespace $1 ",
             "{",
-            "   public class $2 : ModProjectile",
+            "   public class $TM_FILENAME_BASE : ModProjectile",
             "   {",
             "       public override void SetDefaults()",
             "       {",
@@ -56,7 +56,7 @@
             "",
             "namespace $1",
             "{",
-            "   public class $2: ModDust",
+            "   public class $TM_FILENAME_BASE : ModDust",
             "   {",
             "       public override void OnSpawn(Dust dust) {",
             "           dust.velocity *= 0.4f; // Multiply the dust's start velocity by 0.4, slowing it down",
@@ -81,7 +81,7 @@
             "",
             "namespace $1",
             "{",
-            "   public class $2 : ModTile",
+            "   public class $TM_FILENAME_BASE : ModTile",
             "   {",
             "       public override void SetStaticDefaults() {",
             "           Main.tileSolid[Type] = true;",
@@ -107,7 +107,7 @@
             "using Terraria.ModLoader;",
             "namespace $1",
             "{",
-            "    public class $2 : ModRarity",
+            "    public class $TM_FILENAME_BASE : ModRarity",
             "    {",
             "        public override Color RarityColor => new Color(200, 215, 230);",
             "",
@@ -143,6 +143,30 @@
             "       }",
             "   }",
             "}"
+        ]
+    },
+    "New Projectile": {
+        "prefix": "sd:newproj",
+        "body": [
+            "Projectile.NewProjectile($1, $2, $3, $4, $5, %6, %7);"
+        ]
+    },
+    "New Direct Dust": {
+        "prefix": "sd:newddust",
+        "body": [
+            "Dust dust = Dust.NewDustDirect($1, $2, $3, $4);"
+        ]
+    },
+    "New Dust": {
+        "prefix": "sd:newdust",
+        "body": [
+            "Dust dust = Dust.NewDustDirect($1, $2, $3, $4);"
+        ]
+    },
+    "Play Sound": {
+        "prefix": "sd:playsound",
+        "body": [
+            "SoundEngine.PlaySound($1,$2);"
         ]
     }
 }
