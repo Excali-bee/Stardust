@@ -1,32 +1,61 @@
-Stardust is a Visual Studio Code extension designed to streamline the development of mods for Terraria. This extension provides a collection of code snippets to help you quickly set up various modding components, including items, projectiles, dust, tiles, rarities, and buffs.
+# stardust README
 
 ## Features
-Stardust includes the following features:
-
-Create Item: Quickly generate the basic structure for a new Terraria item.
-Create Projectile: Set up a new projectile with customizable properties.
-Create Dust: Create custom dust effects with configurable behavior.
-Create Tile: Define new tiles with custom properties and dust effects.
-Create Rarity: Implement custom rarities for your items.
-Create Buff: Generate buff/debuff logic with options for saving, display, and more.
-Each snippet is designed to provide a boilerplate for its respective Terraria mod component, allowing you to focus on the creative aspects of your modding projects.
 
 ## Requirements
-There are no specific requirements for using this extension beyond having Visual Studio Code installed. However, for effective use, familiarity with Terraria's modding API (tModLoader) and C# programming is recommended.
+
+If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
 ## Extension Settings
-This extension does not currently add any VS Code settings.
+
+Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+
+For example:
+
+This extension contributes the following settings:
+
+* `myExtension.enable`: Enable/disable this extension.
+* `myExtension.thing`: Set to `blah` to do something.
 
 ## Known Issues
-There are no known issues at this time. Please report any issues you encounter via the GitHub repository.
+
+Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes
-1.0.0
-Initial release of Stardust, featuring the following snippets:
 
-- [x] sd:item: Create a new item.
-- [x] sd:proj: Create a new projectile.
-- [x] sd:dust: Create custom dust effects.
-- [x] sd:tile: Set up a new tile.
-- [x] sd:rarity: Implement a custom rarity.
-- [x] sd:buff: Create a new buff or debuff.
+Users appreciate release notes as you update your extension.
+
+### 1.0.0
+
+Initial release of ...
+
+### 1.0.1
+
+Fixed issue #.
+
+### 1.1.0
+
+Added features X, Y, and Z.
+
+---
+
+## Following extension guidelines
+
+Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+
+* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+
+## Working with Markdown
+
+You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+
+* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
+* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
+* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+
+## For more information
+
+* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+
+**Enjoy!**

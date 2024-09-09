@@ -1,2 +1,7 @@
-
-stardust-1.0.0.vsix
+.vscode-test
+.vscode
+/node_modules
+.vscode-test.mjs
+/.vscode-test
+/node_modules
+/test
