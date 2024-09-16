@@ -5,3 +5,4 @@
 /.vscode-test
 /node_modules
 /test
+/out

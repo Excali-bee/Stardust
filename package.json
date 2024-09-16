@@ -3,6 +3,11 @@
   "displayName": "StarDust",
   "description": "Snippets for Terraria mod developers to make their lives easier.",
   "version": "1.0.1",
+  "publisher": "VitorFazoli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Excali-bee/Stardust"
+  },
   "engines": {
     "vscode": "^1.93.0"
   },
