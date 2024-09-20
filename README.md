@@ -1,61 +1,26 @@
-# stardust README
+# Stardust
 
-## Features
+> This extension for Visual Studio is designed to facilitate the development of Terraria mods by providing a set of useful snippets and tools.Snippets for Terraria mod developers to make their lives easier.
 
-## Requirements
+## **Features**
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+* Snippets: A collection of pre-built code snippets for common Terraria modding tasks, such as creating new items, NPCs, and biomes.
 
-## Extension Settings
+## **Installation**
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. Open the Visual Studio Code Extensions and search for "Stardust".
+2. Click the "Download" button to download the extension.
+3. Once the download is complete, click the "Install" button to install the extension.
+4. Restart Visual Studio to enable the extension.
 
-For example:
+## **Contributing**
 
-This extension contributes the following settings:
+If you'd like to contribute to this extension, please fork the repository and submit a pull request with your changes.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## **License**
 
-## Known Issues
+This extension is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## **Credits**
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Vitor Fazoli: Owner
