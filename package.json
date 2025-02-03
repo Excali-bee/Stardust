@@ -9,7 +9,7 @@
     "url": "https://github.com/Excali-bee/Stardust"
   },
   "engines": {
-    "vscode": "^1.93.0"
+    "vscode": "^1.96.0"
   },
   "categories": [
     "Snippets"
