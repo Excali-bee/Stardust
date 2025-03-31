@@ -13,6 +13,12 @@
 3. Once the download is complete, click the "Install" button to install the extension.
 4. Restart Visual Studio to enable the extension.
 
+## **Usage**
+
+1. Open your `.cs` file.
+2. type `sd` and click `ctrl`+`space` to autofill the line.
+3. Select the wanted snippet.
+
 ## **Contributing**
 
 If you'd like to contribute to this extension, please fork the repository and submit a pull request with your changes.
