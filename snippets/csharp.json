@@ -242,7 +242,7 @@
             "\tSoundEngine.PlaySound($1,$2);"
         ]
     },
-    "Add Recipe": {
+    "Create Recipe": {
         "prefix": "sd:recipe",
         "body": [
             "\tpublic override void AddRecipes()",
@@ -251,6 +251,72 @@
             "\t\t\t.AddIngredient($1, $2)",
             "\t\t\t.AddTile($3)",
             "\t\t\t.Register();",
+            "\t}"
+        ]
+    },
+    "Create Player": {
+        "prefix": "sd:player",
+        "body": [
+            "\tusing Terraria;",
+            "\tusing Terraria.ModLoader;",
+            "\t",
+            "\tnamespace $WORKSPACE_NAME.$1",
+            "\t{",
+            "\t\tpublic class $TM_FILENAME_BASE : ModPlayer",
+            "\t\t{",
+            "\t\t}",
+            "\t}"
+        ]
+    },
+    "Create System": {
+        "prefix": "sd:system",
+        "body": [
+            "\tusing Terraria;",
+            "\tusing Terraria.ModLoader;",
+            "\t",
+            "\tnamespace $WORKSPACE_NAME.$1",
+            "\t{",
+            "\t\tpublic class $TM_FILENAME_BASE : ModSystem",
+            "\t\t{",
+            "\t\t}",
+            "\t}"
+        ]
+    },
+    "Create Prefix": {
+        "prefix": "sd:prefix",
+        "body": [
+            "\tusing Terraria.ModLoader;",
+            "\tusing Terraria;",
+            "\tusing Terraria.Localization;",
+            "\tusing System.Collections.Generic;",
+            "\t",
+            "\tnamespace $WORKSPACE_NAME.$1",
+            "\t{",
+            "\t\tpublic class $TM_FILENAME_BASE : ModPrefix",
+            "\t\t{",
+            "\t\t\tpublic virtual float Power => 1f;",
+            "\t\t\tpublic override PrefixCategory Category => PrefixCategory.AnyWeapon;",
+            "\t\t\tpublic override float RollChance(Item item) => 5f;",
+            "\t\t\tpublic override bool CanRoll(Item item) => true;",
+            "\t\t\tpublic override void SetStats(ref float damageMult, ref float knockbackMult, ref float useTimeMult, ref float scaleMult, ref float shootSpeedMult, ref float manaMult, ref int critBonus) {",
+            "\t\t\t\tdamageMult *= 1f + 0.20f * Power;",
+            "\t\t\t}",
+            "\t\t\tpublic override void ModifyValue(ref float valueMult) {",
+            "\t\t\t\tvalueMult *= 1f + 0.05f * Power;",
+            "\t\t\t}",
+            "\t\t\tpublic override void Apply(Item item) {",
+            "\t\t\t\t// Custom logic here",
+            "\t\t\t}",
+            "\t\t\tpublic override IEnumerable<TooltipLine> GetTooltipLines(Item item) {",
+            "\t\t\t\tyield break;",
+            "\t\t\t}",
+            "\t\t\tpublic static LocalizedText PowerTooltip { get; private set; }",
+            "\t\t\tpublic LocalizedText AdditionalTooltip => this.GetLocalization(nameof(AdditionalTooltip));",
+            "\t\t\tpublic override void SetStaticDefaults() {",
+            "\t\t\t\tPowerTooltip = Mod.GetLocalization($\"{LocalizationCategory}.{nameof(PowerTooltip)}\");",
+            "\t\t\t\t_ = AdditionalTooltip;",
+            "\t\t\t}",
+            "\t\t}",
             "\t}"
         ]
     }
