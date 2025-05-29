@@ -319,5 +319,40 @@
             "\t\t}",
             "\t}"
         ]
+    },
+    "Create Melee Weapon": {
+        "prefix": "sd:weapon:melee",
+        "body": [
+            "\tusing Terraria;",
+            "\tusing Terraria.ID;",
+            "\tusing Terraria.ModLoader;",
+            "\t",
+            "\tnamespace $WORKSPACE_NAME.$1",
+            "\t{",
+            "\t\tpublic class $TM_FILENAME_BASE : ModItem",
+            "\t\t{",
+            "\t\t\tpublic override void SetStaticDefaults()",
+            "\t\t\t{",
+            "\t\t\t\t// Optional: Tooltip.SetDefault(\"A powerful melee weapon.\");",
+            "\t\t\t}",
+            "",
+            "\t\t\tpublic override void SetDefaults()",
+            "\t\t\t{",
+            "\t\t\t\tItem.damage = 50;",
+            "\t\t\t\tItem.DamageType = DamageClass.Melee;",
+            "\t\t\t\tItem.width = 40;",
+            "\t\t\t\tItem.height = 40;",
+            "\t\t\t\tItem.useTime = 20;",
+            "\t\t\t\tItem.useAnimation = 20;",
+            "\t\t\t\tItem.useStyle = ItemUseStyleID.Swing;",
+            "\t\t\t\tItem.knockBack = 6f;",
+            "\t\t\t\tItem.value = Item.buyPrice(silver: 1);",
+            "\t\t\t\tItem.rare = ItemRarityID.Blue;",
+            "\t\t\t\tItem.UseSound = SoundID.Item1;",
+            "\t\t\t\tItem.autoReuse = true;",
+            "\t\t\t}",
+            "\t\t}",
+            "\t}"
+        ]
     }
 }
