@@ -19,6 +19,25 @@
 2. type `sd` and click `ctrl`+`space` to autofill the line.
 3. Select the wanted snippet.
 
+## **Snippets**
+
+- Create Item
+- Create Projectile
+- Create Dust
+- Create Tile
+- Create Rarity
+- Create Wing
+- Create Boots (prefix suggests arrows, but naming indicates boots)
+- Create Buff
+- New Projectile
+- New Direct Dust
+- New Dust
+- Play Sound
+- Create Recipe
+- Create Player
+- Create System
+- Create Prefix
+
 ## **Contributing**
 
 If you'd like to contribute to this extension, please fork the repository and submit a pull request with your changes.
