@@ -159,7 +159,7 @@
             "\t}"
         ]
     },
-    "Create Boots": {
+    "Create Arrow": {
         "prefix": "sd:arrow",
         "body": [
             "\tusing Terraria;",
