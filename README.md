@@ -27,7 +27,7 @@
 - Create Tile
 - Create Rarity
 - Create Wing
-- Create Boots (prefix suggests arrows, but naming indicates boots)
+- Create Arrow
 - Create Buff
 - New Projectile
 - New Direct Dust
