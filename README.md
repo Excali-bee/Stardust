@@ -4,7 +4,7 @@
 
 ## **Features**
 
-* Snippets: A collection of pre-built code snippets for common Terraria modding tasks, such as creating new items, NPCs, and biomes.
+* Snippets: A collection of pre-built code snippets for common Terraria modding tasks, such as creating new items, NPCs,.
 
 ## **Installation**
 
@@ -37,6 +37,9 @@
 - Create Player
 - Create System
 - Create Prefix
+- Create Melee Weapon
+- New NPC
+- Create Wall
 
 ## **Contributing**
 

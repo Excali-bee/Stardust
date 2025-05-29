@@ -3,7 +3,7 @@
   "displayName": "StarDust",
   "description": "Snippets for Terraria mod developers to make their lives easier.",
   "icon": "icon.png",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "publisher": "VitorFazoli",
   "repository": {
     "type": "git",

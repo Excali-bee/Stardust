@@ -354,5 +354,29 @@
             "\t\t}",
             "\t}"
         ]
+    },
+    "New NPC": {
+        "prefix": "sd:npc",
+        "body": [
+            "NPC.NewNPC($1, $2, $3);"
+        ]
+    },
+    "Create Wall": {
+        "prefix": "sd:wall",
+        "body": [
+            "\tusing Terraria;",
+            "\tusing Terraria.ModLoader;",
+            "\t",
+            "\tnamespace $WORKSPACE_NAME.$1",
+            "\t{",
+            "\t\tpublic class $TM_FILENAME_BASE : ModWall",
+            "\t\t{",
+            "\t\t\tpublic override void SetStaticDefaults() {",
+            "\t\t\t\tMain.wallHouse[Type] = true;",
+            "\t\t\t\tAddMapEntry(new Color(150, 150, 150));",
+            "\t\t\t}",
+            "\t\t}",
+            "\t}"
+        ]
     }
 }
