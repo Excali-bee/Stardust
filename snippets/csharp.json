@@ -444,5 +444,44 @@
             "\t\t}",
             "\t}"
         ]
+    },
+    "Create Bow": {
+        "prefix": "sd:weapon:ranged:bow",
+        "body": [
+            "\tusing Terraria;",
+            "\tusing Terraria.ID;",
+            "\tusing Terraria.ModLoader;",
+            "\t",
+            "\tnamespace $WORKSPACE_NAME.$1",
+            "\t{",
+            "\t\tpublic class $TM_FILENAME_BASE : ModItem",
+            "\t\t{",
+            "\t\t\tpublic override void SetStaticDefaults()",
+            "\t\t\t{",
+            "\t\t\t\t// Optional: Tooltip.SetDefault(\"A custom bow that shoots any vanilla arrows.\");",
+            "\t\t\t}",
+            "",
+            "\t\t\tpublic override void SetDefaults()",
+            "\t\t\t{",
+            "\t\t\t\tItem.damage = 12;",
+            "\t\t\t\tItem.DamageType = DamageClass.Ranged;",
+            "\t\t\t\tItem.width = 18;",
+            "\t\t\t\tItem.height = 32;",
+            "\t\t\t\tItem.useTime = 24;",
+            "\t\t\t\tItem.useAnimation = 24;",
+            "\t\t\t\tItem.useStyle = ItemUseStyleID.Shoot;",
+            "\t\t\t\tItem.noMelee = true;",
+            "\t\t\t\tItem.knockBack = 2f;",
+            "\t\t\t\tItem.value = Item.buyPrice(silver: 50);",
+            "\t\t\t\tItem.rare = ItemRarityID.Blue;",
+            "\t\t\t\tItem.UseSound = SoundID.Item5;",
+            "\t\t\t\tItem.autoReuse = true;",
+            "\t\t\t\tItem.shoot = 10;",
+            "\t\t\t\tItem.shootSpeed = 6f;",
+            "\t\t\t\tItem.useAmmo = AmmoID.Arrow;",
+            "\t\t\t}",
+            "\t\t}",
+            "\t}"
+        ]
     }
 }
