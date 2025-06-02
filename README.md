@@ -21,29 +21,29 @@
 
 ## **Snippets**
 
-- Create Item
-- Create Projectile
-- Create Dust
-- Create Tile
-- Create Rarity
-- Create Wing
-- Create Arrow (Item)
-- Create Bullet Projectile
-- Create Arrow (Projectile)
-- Create Buff
-- New Projectile
-- New Direct Dust
-- New Dust
-- Play Sound
-- Create Recipe
-- Create Player
-- Create System
-- Create Prefix
-- Create Melee Weapon
-- Create Enchanted Sword (with projectile)
-- Create Ranged Bow
-- New NPC
-- Create Wall
+* Create Item
+* Create Projectile
+* Create Dust
+* Create Tile
+* Create Rarity
+* Create Wing
+* Create Arrow (Item)
+* Create Bullet Projectile
+* Create Arrow (Projectile)
+* Create Buff
+* New Projectile
+* New Direct Dust
+* New Dust
+* Play Sound
+* Create Recipe
+* Create Player
+* Create System
+* Create Prefix
+* Create Melee Weapon
+* Create Enchanted Sword (with projectile)
+* Create Ranged Bow
+* New NPC
+* Create Wall
 
 ## **Contributing**
 
