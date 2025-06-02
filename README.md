@@ -4,7 +4,7 @@
 
 ## **Features**
 
-* Snippets: A collection of pre-built code snippets for common Terraria modding tasks, such as creating new items, NPCs,.
+* Snippets: A collection of pre-built code snippets for common Terraria modding tasks, such as creating new items, NPCs.
 
 ## **Installation**
 
@@ -27,7 +27,9 @@
 - Create Tile
 - Create Rarity
 - Create Wing
-- Create Arrow
+- Create Arrow (Item)
+- Create Bullet Projectile
+- Create Arrow (Projectile)
 - Create Buff
 - New Projectile
 - New Direct Dust
