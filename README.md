@@ -39,6 +39,7 @@
 - Create Prefix
 - Create Melee Weapon
 - Create Enchanted Sword (with projectile)
+- Create Ranged Bow
 - New NPC
 - Create Wall
 
