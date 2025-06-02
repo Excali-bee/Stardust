@@ -38,6 +38,7 @@
 - Create System
 - Create Prefix
 - Create Melee Weapon
+- Create Enchanted Sword (with projectile)
 - New NPC
 - Create Wall
 
