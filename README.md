@@ -1,6 +1,6 @@
 # Stardust
 
-> This extension for Visual Studio is designed to facilitate the development of Terraria mods by providing a set of useful snippets and tools.Snippets for Terraria mod developers to make their lives easier.
+> This extension for Visual Studio is designed to facilitate the development of Terraria mods by providing a set of useful snippets and tools. Snippets for Terraria mod developers to make their lives easier.
 
 ## **Features**
 
@@ -21,29 +21,52 @@
 
 ## **Snippets**
 
-* Create Item
-* Create Projectile
-* Create Dust
-* Create Tile
-* Create Rarity
-* Create Wing
+### Weapons
+
+* Create Melee Weapon
+* Create Enchanted Sword (with projectile)
+* Create Bow
+
+### Projectiles
+
+* Create Arrow Projectile (Ammo)
+* Create Bullet Projectile (Ammo)
+* Create Non-Ammo Projectile
+
+### Ammo
+
 * Create Arrow (Item)
-* Create Bullet Projectile
-* Create Arrow (Projectile)
+* Create Bullet (Item)
+
+### Accessories
+
+* Create Wing
+
+### Tiles & Walls
+
+* Create Tile
+* Create Wall
+
+### Buffs & Rarities
+
 * Create Buff
-* New Projectile
+* Create Rarity
+
+### Players & Systems
+
+* Create Player
+* Create System
+
+### Miscellaneous
+
+* Create Item
+* Create Dust
 * New Direct Dust
 * New Dust
 * Play Sound
 * Create Recipe
-* Create Player
-* Create System
 * Create Prefix
-* Create Melee Weapon
-* Create Enchanted Sword (with projectile)
-* Create Ranged Bow
 * New NPC
-* Create Wall
 
 ## **Contributing**
 
